@@ -1,11 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        sh '''#!bin/bash
-
-echo "This is stage env"'''
+        echo 'This is stahe env'
       }
     }
 
