@@ -1,0 +1,5 @@
+#!/bin/bash
+for a in {6..8}
+do
+	rm -rf child1 child devops
+done
